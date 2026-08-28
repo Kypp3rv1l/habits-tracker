@@ -5,10 +5,10 @@ Proyecto creado como evidencia de la Actividad N°1: Control de Versiones (Traba
 
 ## ¿Qué hace?
 
-- Agrega hábitos a seguir.
-- Marca un hábito como completado en el día de hoy.
-- Lista los hábitos y cuántos días se han completado.
-- Muestra estadísticas por hábito.
+- Agrega los hábitos a seguir.
+- Marca un hábito como "completado" en el día de hoy.
+- Un listado de los hábitos y cuántos días se han completado.
+- Muestra las estadísticas por hábito.
 
 Los datos se guardan localmente en `habits.json`.
 
