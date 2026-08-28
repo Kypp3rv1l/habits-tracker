@@ -60,6 +60,3 @@ def show_stats(name):
     total = len(habits[name])
     print(f"Estadisticas de '{name}': {total} dias completados en total.")
 # TODO: agregar comando delete_habit (en progreso)
-# nota: revisar validacion de nombres de habitos
-# nota: agregar manejo de errores en load_habits
-# nota: considerar tests unitarios
