@@ -35,6 +35,18 @@ def list_habits():
         print(f"- {name}: {len(dates)} dias completados")
 
 
+def mark_done(name):
+    habits = load_habits()
+    if name not in habits:
+        print(f"El habito '{name}' no existe.")
+        return
+    today = str(date.today())
+    if today not in habits[name]:
+        habits[name].append(today)
+        save_habits(habits)
+    print(f"'{name}' marcado como completado hoy ({today}).")
+
+
 if __name__ == "__main__":
     print("Habit Tracker CLI")
     list_habits()
