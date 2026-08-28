@@ -48,7 +48,7 @@ def mark_done(name):
 
 
 if __name__ == "__main__":
-    print("=== Habit Tracker CLI ===")
+    print("=== Habit Tracker CLI (version rama conflict-demo) ===")
     list_habits()
 
 
