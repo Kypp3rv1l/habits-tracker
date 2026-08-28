@@ -1,5 +1,7 @@
 # Habit Tracker CLI
 
+Hola!! segundo cambio incremental.
+
 Pequeña aplicación de línea de comandos para llevar el registro de hábitos diarios.
 Proyecto creado como evidencia de la Actividad N°1: Control de Versiones (Trabajo en equipo).
 
