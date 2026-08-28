@@ -50,3 +50,12 @@ def mark_done(name):
 if __name__ == "__main__":
     print("Habit Tracker CLI")
     list_habits()
+
+
+def show_stats(name):
+    habits = load_habits()
+    if name not in habits:
+        print(f"El habito '{name}' no existe.")
+        return
+    total = len(habits[name])
+    print(f"Estadisticas de '{name}': {total} dias completados en total.")
