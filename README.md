@@ -47,7 +47,7 @@ show_stats("Leer 20 minutos")
 
 ## Historial de versiones
 
-- `v1.0`: primera versión funcional (agregar, listar, marcar completado y estadísticas).
+- `v1.0`: Es la primera versión funcional (agregar, listar, marcar completado y estadísticas).
 - `v1.1`: limpieza de historial de commits y documentación final.
 
 ## Evidencia de control de versiones
